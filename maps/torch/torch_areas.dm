@@ -615,15 +615,16 @@
 	req_access = list(access_pilot)
 
 /area/command/armoury
-	name = "\improper Emergency Armory"
+	name = "\improper Emergency Equipment Storage"
 	icon_state = "Warden"
-	req_access = list(list(access_bridge, access_emergency_armory))
+	req_access = list(list(access_bridge, access_emergency_armory, access_maint_tunnels))
 
 /area/command/armoury/access
-	name = "\improper Emergency Armory - Access"
+	name = "\improper Emergency Equipment Storage - Access"
+	req_access = list(access_maint_tunnels)
 
 /area/command/armoury/tactical
-	name = "\improper Emergency Armory - Tactical"
+	name = "\improper Emergency Armory - Tactical Equipment"
 	icon_state = "Tactical"
 	req_access = list(access_emergency_armory)
 
@@ -1055,11 +1056,9 @@
 	icon_state = "checkpoint"
 
 // AI
-/area/turret_protected/ai_foyer
-	name = "\improper AI Chamber Foyer"
+/area/turret_protected/ai_foyer //not turret protected, keeping like this to be coherent
+	name = "\improper AI Core Foyer"
 	icon_state = "ai_foyer"
-	sound_env = SMALL_ENCLOSED
-	req_access = list(access_ai_upload)
 
 /area/turret_protected/ai_outer_chamber
 	name = "\improper Outer AI Chamber"
