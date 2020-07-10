@@ -87,6 +87,10 @@
 	name = "administrative actions"
 	desc = "\"For Official Use Only\" memorandum detailing a commander’s options with regards to administrative action, as referenced in the disposition of offenses. Options include: counseling, corrective training, administrative reprimands, bar to reenlistment, suspension of favorable personnel actions (flagging), MOS reclassification, revocation of security clearance, relief from duties, adverse NCOER/OER, removal from special status, rehabilitative transfer, administrative reduction, administrative separations."
 
+obj/item/documents/generic/sol/realitybreak
+    name = "Bluespace drive apparitions"
+    desc = "\"Internal Use ONLY\" memo, sent from Expeditionary Command, based on a document from Krri'gli Engineering. It states that any humanoid figures seen during a bluespace jump are incorporeal apparitions and no mind should be paid to them, even if they appear familiar. In addition, it notes the existence of a bluespace "double" that living crew may experience and strongly urges them not to touch said double, as tempting as it may be, citing many cases of catatonia in those who have."
+
 /obj/item/documents/generic/sol/njprules
 	name = "nonjudicial punishments"
 	desc = "\"For Official Use Only\" memorandum detailing options with regards to nonjudicially punishing uniformed servicemembers. Such punishments include admonishment/reprimand, forfeiture of pay, restriction, extra duty, reduction in rank, and correctional custody if the installation has an approved facility. Amount of punishment depends on rank of accused and rank of commander."
@@ -246,7 +250,7 @@
 /obj/item/documents/generic/explo/voxencounters
     name = "Vox encounters"
     desc = "\"Internal Use ONLY\" document explaining the dangers of attacking Vox parties head on. While very light on details, it highlights the idea that smaller, single-digit groups of Vox are less likely to attack directly and more likely to avoid conflict or flee unless they are cornered and have no other option. Likewise, larger groups are significantly more aggressive and should be avoided at all costs. In addition, the report strongly discourages the capturing of Vox, indicating that doing so only seems to invariably attract more."
-	
+    
 /obj/item/documents/generic/explo/charonsafety
 	name = "fuel safety report"
 	desc = "\"Internal use ONLY\" reports about personnel smoking near the atmospherics holding area aboard SEV Charon. The atmospherics holding area aboard Charon is a no-smoking area, and is located in the aft port-side compartment. This includes an incident with a contracted pilot. The report ends with large-font writing stating the next person found smoking near the fueling port will be demoted to sanitation tech for the rest of their deployment."
