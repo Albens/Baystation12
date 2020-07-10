@@ -72,11 +72,11 @@
 
 /obj/item/documents/generic/sol/punishments
 	name = "disposition of offenses"
-	desc = "\"For Official Use Only\" memorandum detailing a commander’s options with regards to punishing uniformed servicemembers. It seems that, in ascending order of severity, a commander can: take no action (after investigation), take administrative action, impose nonjudicial punishment, and court-martial the offender."
+	desc = "\"For Official Use Only\" memorandum detailing a commanderâ€™s options with regards to punishing uniformed servicemembers. It seems that, in ascending order of severity, a commander can: take no action (after investigation), take administrative action, impose nonjudicial punishment, and court-martial the offender."
 
 /obj/item/documents/generic/sol/adminactions
 	name = "administrative actions"
-	desc = "\"For Official Use Only\" memorandum detailing a commander’s options with regards to administrative action, as referenced in the disposition of offenses. Options include: counseling, corrective training, administrative reprimands, bar to reenlistment, suspension of favorable personnel actions (flagging), MOS reclassification, revocation of security clearance, relief from duties, adverse NCOER/OER, removal from special status, rehabilitative transfer, administrative reduction, administrative separations."
+	desc = "\"For Official Use Only\" memorandum detailing a commanderâ€™s options with regards to administrative action, as referenced in the disposition of offenses. Options include: counseling, corrective training, administrative reprimands, bar to reenlistment, suspension of favorable personnel actions (flagging), MOS reclassification, revocation of security clearance, relief from duties, adverse NCOER/OER, removal from special status, rehabilitative transfer, administrative reduction, administrative separations."
 
 /obj/item/documents/generic/sol/njprules
 	name = "nonjudicial punishments"
@@ -84,11 +84,11 @@
 
 /obj/item/documents/generic/sol/enlistednjp
 	name = "nonjudicial punishments for enlisted personnel"
-	desc = "\"For Official Use Only\" memorandum detailing options with regards to nonjudicially punishing enlisted uniformed servicemembers. For a summarized NJP administered aside from on-the-spot correction, there can be no forfeiture of pay or reduction of rank. Restriction and extra duty is capped at fourteen days. For a company-level NJP, forfeiture of one weeks’ pay is authorized. Reduction is capped at one paygrade reduction (E1-4). Restriction and extra duty are capped at two weeks. Field Grade NJPs are reserved for egregious violations. Forfeiture up to half of one-month’s pay for two months is authorized. Reduction in rank for E1-4 can be total. For E5-E6, only one rank reduction is authorized. Restriction of up to 60 days and extra duty of up to 45 days is authorized."
+	desc = "\"For Official Use Only\" memorandum detailing options with regards to nonjudicially punishing enlisted uniformed servicemembers. For a summarized NJP administered aside from on-the-spot correction, there can be no forfeiture of pay or reduction of rank. Restriction and extra duty is capped at fourteen days. For a company-level NJP, forfeiture of one weeksâ€™ pay is authorized. Reduction is capped at one paygrade reduction (E1-4). Restriction and extra duty are capped at two weeks. Field Grade NJPs are reserved for egregious violations. Forfeiture up to half of one-monthâ€™s pay for two months is authorized. Reduction in rank for E1-4 can be total. For E5-E6, only one rank reduction is authorized. Restriction of up to 60 days and extra duty of up to 45 days is authorized."
 
 /obj/item/documents/generic/sol/officernjp
 	name = "nonjudicial punishments for commissioned personnel"
-	desc = "\"For Official Use Only\" memorandum detailing options with regards to nonjudicially punishing commissioned uniformed servicemembers. There is no summarized NJP process. For a company-level NJP, a written reprimand/admonition is required. Restriction is capped at thirty days. Field Grade NJPs are the same. General Officer NJPs require a written letter of reprimand or admonition. Punishment includes up to 60 days restriction or 30 days arrest in quarters. Forfeiture of half of one-month’s pay for two months is authorized."
+	desc = "\"For Official Use Only\" memorandum detailing options with regards to nonjudicially punishing commissioned uniformed servicemembers. There is no summarized NJP process. For a company-level NJP, a written reprimand/admonition is required. Restriction is capped at thirty days. Field Grade NJPs are the same. General Officer NJPs require a written letter of reprimand or admonition. Punishment includes up to 60 days restriction or 30 days arrest in quarters. Forfeiture of half of one-monthâ€™s pay for two months is authorized."
 
 /obj/item/documents/generic/sup/skrellcookery
 	name = "food for alien species memo"
@@ -250,6 +250,10 @@
 	name = "interactions with survivors"
 	desc = "\"Internal Use ONLY\" reports discussing the process of dealing with survivors, off-ship personnel or in-distress civilians. This one details three points that all Explorers, Fleet or contractor personnel should attempt to follow when dealing with off-ship persons: First, treat them with the utmost respect at all times, as they are the ones who need aid. Second, do not directly order them around, unless they happen to be getting in the way of SCG objectives. Third, remind them of their rights - they are requiring aid and are to be treated with the best handling, but remind them that they are still on SCG property, and are subject to SCG law at all times."
 
+/obj/item/documents/generic/explo/cigarettes
+    name = "cigarettes with helmets"
+	desc = "\"Internal Use ONLY\" reports detailing the extreme hazards of attempting to smoke a cigarette while wearing a spaceproof helmet, citing many incidents of suffocation and subsequent death as well as pointing out the presence of a \"No Smoking\" sign onboard the Charon and the likely flammability of many exoplanets. It concludes with a recommendation to smoke only in designated breakrooms aboard the SEV Torch and not when wearing a helmet."
+	
 /obj/item/document/generic/explo/holocalletiquette
 	name = "holocall etiquette
 	desc = "\"Internal use ONLY\" reports, containing a small guide on proper use of holocalls from the perspective of the SEV Charon. This one details five points. First, Calls are a one-way interaction. You inform them of the basic situation, they inform you of what they can do to help. Second, Calls are two-way if you request them to be. Third, If an executive decision is required, ask the Senior on the ground. If he does not render a decision, the SEV Torch shall, but with an emphasis on being decisive. Fourth, State aloud when the call connects. It helps cut down on background chatter. Fifth, The SEV Torch doesn't need to be informed on every specific thing Exploration is doing while on Holocall."
