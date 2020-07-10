@@ -89,7 +89,7 @@
 
 obj/item/documents/generic/sol/realitybreak
     name = "Bluespace drive apparitions"
-    desc = "\"Internal Use ONLY\" memo, sent from Expeditionary Command, based on a document from Krigli Engineering. It states that any humanoid figures seen during a bluespace jump are incorporeal apparitions and no mind should be paid to them, even if they appear familiar. In addition, it notes the existence of a bluespace "double" that living crew may experience and strongly urges them not to touch said double, as tempting as it may be, citing many cases of catatonia in those who have."
+    desc = "\"Internal Use ONLY\" memo, sent from Expeditionary Command, based on a document from Krri'gli Engineering. It states that any humanoid figures seen during a bluespace jump are incorporeal apparitions and no mind should be paid to them, even if they appear familiar. In addition, it notes the existence of a bluespace "double" that living crew may experience and strongly urges them not to touch said double, as tempting as it may be, citing many cases of catatonia in those who have."
 	
 /obj/item/documents/generic/sol/njprules
 	name = "nonjudicial punishments"
