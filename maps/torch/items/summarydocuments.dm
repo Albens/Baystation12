@@ -81,12 +81,16 @@
 
 /obj/item/documents/generic/sol/punishments
 	name = "disposition of offenses"
-	desc = "\"For Official Use Only\" memorandum detailing a commander’s options with regards to punishing uniformed servicemembers. It seems that, in ascending order of severity, a commander can: take no action (after investigation), take administrative action, impose nonjudicial punishment, and court-martial the offender."
+	desc = "\"For Official Use Only\" memorandum detailing a commanderâ€™s options with regards to punishing uniformed servicemembers. It seems that, in ascending order of severity, a commander can: take no action (after investigation), take administrative action, impose nonjudicial punishment, and court-martial the offender."
 
 /obj/item/documents/generic/sol/adminactions
 	name = "administrative actions"
-	desc = "\"For Official Use Only\" memorandum detailing a commander’s options with regards to administrative action, as referenced in the disposition of offenses. Options include: counseling, corrective training, administrative reprimands, bar to reenlistment, suspension of favorable personnel actions (flagging), MOS reclassification, revocation of security clearance, relief from duties, adverse NCOER/OER, removal from special status, rehabilitative transfer, administrative reduction, administrative separations."
+	desc = "\"For Official Use Only\" memorandum detailing a commanderâ€™s options with regards to administrative action, as referenced in the disposition of offenses. Options include: counseling, corrective training, administrative reprimands, bar to reenlistment, suspension of favorable personnel actions (flagging), MOS reclassification, revocation of security clearance, relief from duties, adverse NCOER/OER, removal from special status, rehabilitative transfer, administrative reduction, administrative separations."
 
+obj/item/documents/generic/sol/realitybreak
+    name = "Bluespace drive apparitions"
+    desc = "\"Internal Use ONLY\" memo, sent from EXCOM, based on a document from Krigli Engineering. It states that any humanoid figures seen during a bluespace jump are incorporeal apparitions and no mind should be paid to them, even if they appear familiar. In addition, it notes the existence of a bluespace "double" that living crew may experience and strongly urges them not to touch said double, as tempting as it may be, citing many cases of catatonia in those who have."
+	
 /obj/item/documents/generic/sol/njprules
 	name = "nonjudicial punishments"
 	desc = "\"For Official Use Only\" memorandum detailing options with regards to nonjudicially punishing uniformed servicemembers. Such punishments include admonishment/reprimand, forfeiture of pay, restriction, extra duty, reduction in rank, and correctional custody if the installation has an approved facility. Amount of punishment depends on rank of accused and rank of commander."
