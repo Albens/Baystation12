@@ -81,11 +81,11 @@
 
 /obj/item/documents/generic/sol/punishments
 	name = "disposition of offenses"
-	desc = "\"For Official Use Only\" memorandum detailing a commander’s options with regards to punishing uniformed servicemembers. It seems that, in ascending order of severity, a commander can: take no action (after investigation), take administrative action, impose nonjudicial punishment, and court-martial the offender."
+	desc = "\"For Official Use Only\" memorandum detailing a commanderâ€™s options with regards to punishing uniformed servicemembers. It seems that, in ascending order of severity, a commander can: take no action (after investigation), take administrative action, impose nonjudicial punishment, and court-martial the offender."
 
 /obj/item/documents/generic/sol/adminactions
 	name = "administrative actions"
-	desc = "\"For Official Use Only\" memorandum detailing a commander’s options with regards to administrative action, as referenced in the disposition of offenses. Options include: counseling, corrective training, administrative reprimands, bar to reenlistment, suspension of favorable personnel actions (flagging), MOS reclassification, revocation of security clearance, relief from duties, adverse NCOER/OER, removal from special status, rehabilitative transfer, administrative reduction, administrative separations."
+	desc = "\"For Official Use Only\" memorandum detailing a commanderâ€™s options with regards to administrative action, as referenced in the disposition of offenses. Options include: counseling, corrective training, administrative reprimands, bar to reenlistment, suspension of favorable personnel actions (flagging), MOS reclassification, revocation of security clearance, relief from duties, adverse NCOER/OER, removal from special status, rehabilitative transfer, administrative reduction, administrative separations."
 
 /obj/item/documents/generic/sol/njprules
 	name = "nonjudicial punishments"
@@ -243,6 +243,10 @@
 	name = "shuttle replacement issues"
 	desc = "\"Internal Use ONLY\" a long winded rant riddled with spelling errors lamenting the loss of the "calypso" whatever that may be, claiming it to be a much better shuttle than the Charon, it further laments the loss of the crew microwave."
 
+/obj/item/documents/generic/explo/voxencounters
+    name = "Vox encounters"
+    desc = "\"Internal Use ONLY\" document explaining the dangers of attacking Vox parties head on. While very light on details, it highlights the idea that smaller, single-digit groups of Vox are less likely to attack directly and more likely to avoid conflict or flee unless they are cornered and have no other option. Likewise, larger groups are significantly more aggressive and should be avoided at all costs. In addition, the report strongly discourages the capturing of Vox, indicating that doing so only seems to invariably attract more."
+	
 /obj/item/documents/generic/explo/charonsafety
 	name = "fuel safety report"
 	desc = "\"Internal use ONLY\" reports about personnel smoking near the atmospherics holding area aboard SEV Charon. The atmospherics holding area aboard Charon is a no-smoking area, and is located in the aft port-side compartment. This includes an incident with a contracted pilot. The report ends with large-font writing stating the next person found smoking near the fueling port will be demoted to sanitation tech for the rest of their deployment."
