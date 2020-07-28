@@ -125,13 +125,13 @@
 	skill_points = 20
 
 /obj/effect/submap_landmark/spawnpoint/scavver_pilot
-	name = "Scavver Pilot"
+	name = "Salvage Pilot"
 
 /obj/effect/submap_landmark/spawnpoint/scavver_doctor
-	name = "Scavver Doctor"
+	name = "Salvage Doctor"
 
 /obj/effect/submap_landmark/spawnpoint/scavver_engineer
-	name = "Scavver Engineer"
+	name = "Salvage Engineer"
 
 /decl/hierarchy/outfit/job/scavver
 	name = "Scavenger"
