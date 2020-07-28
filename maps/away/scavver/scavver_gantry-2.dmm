@@ -1,4 +1,9 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"aa" = (
+/obj/structure/lattice,
+/obj/effect/shuttle_landmark/scavver_gantry/two,
+/turf/space,
+/area/space)
 "ab" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/computer/ship/engines{
@@ -7,6 +12,13 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/scavver/lifepod)
+"ac" = (
+/obj/structure/railing/mapped{
+	dir = 1;
+	icon_state = "railing0-1"
+	},
+/turf/simulated/floor/airless,
+/area/scavver/gantry/up1)
 "ae" = (
 /obj/structure/cable{
 	d1 = 4;
@@ -2299,14 +2311,6 @@
 /obj/item/device/multitool,
 /turf/simulated/floor/airless,
 /area/scavver/gantry/up2)
-"AT" = (
-/obj/structure/railing/mapped{
-	dir = 1;
-	icon_state = "railing0-1"
-	},
-/obj/machinery/constructable_frame/machine_frame,
-/turf/simulated/floor/airless,
-/area/scavver/gantry/up1)
 "AW" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/meter,
@@ -14944,7 +14948,7 @@ eN
 hX
 eN
 eN
-hX
+aa
 eN
 eN
 eN
@@ -15256,7 +15260,7 @@ eN
 eN
 eN
 eN
-AT
+ac
 ML
 ML
 Lk
