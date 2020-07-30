@@ -102,8 +102,8 @@
 	name = "Gantry Lift"
 	shuttle_area = /area/scavver/gantry/lift
 	warmup_time = 3
-	waypoint_station = "nav_scavver_gantry_lift_bottom"
-	waypoint_offsite = "nav_scavver_gantry_lift_top"
+	waypoint_station = "nav_scavver_gantry_lift_top"
+	waypoint_offsite = "nav_scavver_gantry_lift_bottom"
 	sound_takeoff = 'sound/effects/lift_heavy_start.ogg'
 	sound_landing = 'sound/effects/lift_heavy_stop.ogg'
 	ceiling_type = null
@@ -113,7 +113,8 @@
 /obj/effect/shuttle_landmark/lift/gantry/top
 	name = "Top Deck"
 	landmark_tag = "nav_scavver_gantry_lift_top"
-	flags = SLANDMARK_FLAG_AUTOSET
+	base_area = /area/scavver/gantry/up1
+	base_turf = /turf/simulated/open
 
 /obj/effect/shuttle_landmark/lift/gantry/bottom
 	name = "Lower Deck"
