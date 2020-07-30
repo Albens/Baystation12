@@ -104,6 +104,7 @@
 /area/scavver/gantry/lift
 	name = "\improper Salvage Gantry Lift"
 	icon_state = "gantry_lift"
+	requires_power = 0
 
 /area/scavver/yachtup
 	name = "\improper Private Yacht Upper Deck"
