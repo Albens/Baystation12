@@ -30,8 +30,8 @@
 	name = "per diem denials"	
 	desc = "An \"internal use only\" document, explaining what not to file per diem reimbursement requests on. It lists examples of many per diem requests SCG representatives have filed in the past that have been denied. Some of the more interesting ones include casino debts, a request for per diem to cover the increased tax on alcohol on a station, and one odd case involving a possum, engineering PPE, and two injuries. You decide not to read further."	
 
-/obj/item/documents/generic/sol/notoffical	
-	name = "offical guides"	
+/obj/item/documents/generic/sol/notoffical
+	name = "offical guides"
 	desc = "Some \"internal use only\" reports on inter-departmental communications, reminding personnel that unless the document specifies it is from EXO or Expeditionary Command, it is not offical policy and should not be referenced as a definitive reasoning for any action."
 
 /obj/item/documents/generic/sol/saluting
@@ -74,8 +74,8 @@
 	name = "disposition of offenses"
 	desc = "A \"for official use only\" memorandum detailing an officer's options with regards to punishing uniformed servicemembers. In ascending order of severity, the officer can: take no action (after investigation), take administrative action, impose nonjudicial punishment, and court-martial the offender."
 
-obj/item/documents/generic/sol/realitybreak	
-    name = "Bluespace drive apparitions"	
+obj/item/documents/generic/sol/realitybreak
+    name = "Bluespace drive apparitions"
     desc = "An \"internal use only\" memo sent from Expeditionary Command, based on a document from Krri'gli Engineering. It states that any humanoid figures seen during a bluespace jump are incorporeal apparitions and no mind should be paid to them, even if they appear familiar. In addition, it notes the existence of a bluespace \"double\" that living crew may experience and strongly urges them not to touch said double, as tempting as it may be, citing many cases of irrecoverable catatonia in those who have."
 
 /obj/item/documents/generic/sol/njprules
@@ -279,7 +279,7 @@ obj/item/documents/generic/sol/realitybreak
 	desc = "An \"internal use only\" visual guide for the proper operation of xenobiology containment doors. It features a hand-written note saying \"PAY ATTENTION TO THIS!\" in large letters."
 
 /obj/item/documents/generic/corp/bodyarmourbad
-	name = "LPA recommendations"	
+	name = "LPA recommendations"
 	desc = "Some \"internal use only\" corporate documents, detailing that having loss prevention associates openly wear body armor and a smartgun is an extreme violation of trust between EXO and the SCG and will result in harsh penalties. It also notes that this issue will be brought up at every 3 months during contract renewal."
 
 /obj/item/documents/generic/corp/stipendcut
@@ -287,7 +287,7 @@ obj/item/documents/generic/sol/realitybreak
 	desc = "A \"confidential\" memo on the current usage of funds provided to SEV Torch corporate liaisons; apparently there's threats of a strike over a cut to the cost-of-living stipends by the head office."
 
 /obj/item/documents/generic/corp/LPArenting	
-	name = "LPA usage notice"	
+	name = "LPA usage notice"
 	desc = "A \"confidential\" notice to the corporate liaison aboard the SEV Torch that their security staff are for their use only, and renting them out as extra manpower to security is a gross violation of their contract."
 
 /obj/item/documents/generic/corp/uniondues
@@ -298,8 +298,8 @@ obj/item/documents/generic/sol/realitybreak
 	name = "proper document disposal"
 	desc = "Some \"internal use only\" corporate documents detailing the proper ways to dispose of top secret and classified documents. It highlights that burning is most applicable, and shows pictures of shredded documents reconstructed with glue and sticky tape with a red \"Fail\" written below."
 
-/obj/item/documents/generic/corp/lpainfo	
-	name = "LPA reminder"	
+/obj/item/documents/generic/corp/lpainfo
+	name = "LPA reminder"
 	desc = "An \"internal use only\" corporate document informing corporate liasions of the loss prevention associate's job aboard the ship. It cites concerns about the misuse of the LPA and general mistrust towards them from the rest of the crew, and warns how these tensions will damage EXO's image if they keep acting in this manner. It reminds them that LPAs are from an established industry and should have experience in many aspects other than carrying a firearm. It specifies good observation skills, solid restraint, an understanding of escalation rules in regards to their position, and that their experience as an industry professional can be useful as an advisor to their tasked liasion."
 
 /obj/item/documents/generic/corp/exointerest
@@ -310,8 +310,8 @@ obj/item/documents/generic/sol/realitybreak
 	name = "quarterly budget report"
 	desc = "A \"confidential\" yet uninteresting report from the head office regarding budget plans you already knew two weeks ago."
 
-/obj/item/documents/generic/corp/kiareport	
-	name = "deceased and missing staff reports"	
+/obj/item/documents/generic/corp/kiareport
+	name = "deceased and missing staff reports"
 	desc = "A \"confidential\" memo reminding corporate liaisons to report the details pertaining to the death, or missing status, of on-shift employees. It explains that doing this ensures formal procedures are followed, and the situation pertaining to the deceased/missing status will be referenced for ongoing and future employee training programs and payrolls."
 
 /obj/item/documents/generic/sec/carrieroverkill
@@ -330,8 +330,8 @@ obj/item/documents/generic/sol/realitybreak
 	name = "misuse of delegated personnel"	
 	desc = "An \"internal use only\" corporate memo reminding corporate liaisons that just because the executive assistant is issued a firearm does not mean that they are expected to fulfill the same role as a loss prevention associate. It suggests using loss prevention associates to assist in tactical or physical affairs and executive assistants in bureaucratic or menial tasks."	
 
-/obj/item/documents/generic/corp/safeteyfirst	
-	name = "contractor safety and you"	
+/obj/item/documents/generic/corp/safetyfirst
+	name = "contractor safety and you"
 	desc = "An \"internal use only\" corporate document reminding corporate liaisons to report any unsafe behavior from contractors that they either see directly or is reported to them. It goes on to explain that ensuring the health and safety compliance of those under contract not only helps to keep up an image of security but ensures that the reputation of EXO as a whole is not tarnished due to a workplace accident."
 
 /obj/item/documents/generic/sec/pepperoveruse2
