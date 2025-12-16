@@ -24,6 +24,7 @@ GLOBAL_TYPED_AS(using_map, /datum/map, new using_map_DATUM)
 #include "away\away_sites.dm"
 #include "away_sites_testing\away_sites_testing_define.dm"
 #include "random_ruins\exoplanet_ruins\exoplanet_ruins.dm"
+#include "random_ruins\exoplanet_ruins\commonwealthwoes\commonwealthwoes.dm"
 #include "random_ruins\exoplanet_ruins\excavation_site\excavation_site.dm"
 #include "random_ruins\exoplanet_ruins\transshipment\transshipment.dm"
 #include "random_ruins\exoplanet_ruins\crashed_pod\crashed_pod.dm"
