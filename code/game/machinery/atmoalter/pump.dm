@@ -24,7 +24,7 @@
 /obj/machinery/portable_atmospherics/powered/pump/filled
 	start_pressure = 90 * ONE_ATMOSPHERE
 
-/obj/machinery/portable_atmospherics/powered/pump/New()
+/obj/machinery/portable_atmospherics/powered/pump/filled/New()
 	..()
 
 	var/list/air_mix = StandardAirMix()

@@ -4801,6 +4801,10 @@
 /obj/random/medical,
 /turf/simulated/floor/tiled/techfloor,
 /area/maintenance/fourthdeck/port)
+"ro" = (
+/obj/shuttle_landmark/nav_venturian_shuttle/torch,
+/turf/space,
+/area/space)
 "rr" = (
 /obj/machinery/computer/arcade,
 /turf/simulated/floor/plating,
@@ -22457,7 +22461,7 @@ aa
 aa
 aa
 aa
-aa
+ro
 aa
 aa
 aa

@@ -44,3 +44,7 @@
 		audible_message("<b>\The [src]</b> states, \"Greetings! I serve the following dishes: [english_list(menu)]\"")
 	else
 		audible_message("<b>\The [src]</b> states, \"Apologies! I cannot serve any dishes at the moment.\"")
+
+/obj/machinery/fabricator/replicator/filled/Initialize()
+    . = ..()
+    stored_material[/datum/reagent/nutriment] = 100

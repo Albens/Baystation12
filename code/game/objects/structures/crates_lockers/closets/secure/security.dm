@@ -237,9 +237,10 @@
 	name = "wall locker"
 	req_access = list(access_brig)
 	closet_appearance = /singleton/closet_appearance/wall
-
-	//too small to put a man in
-	large = 0
+	density = FALSE
+	anchored = TRUE
+	wall_mounted = TRUE
+	storage_types = CLOSET_STORAGE_ITEMS
 
 /obj/structure/closet/secure_closet/lawyer
 	name = "internal affairs secure closet"

@@ -26,7 +26,8 @@
 		"ICGNV Hound" = list("nav_hound_dock"),
 		"SFV Arbiter" = list("nav_sfv_arbiter_dock"),
 		"FTV Cubkitten" = list("nav_hangar_cubkitten_torch"),
-		"ISV Crab" = list("nav_salvage_shuttle_torch_eva_dock")
+		"ISV Crab" = list("nav_salvage_shuttle_torch_eva_dock"),
+		"FTEV Venturian" = list("nav_venturian_shuttle_torch_eva_dock")
 	)
 
 	initial_generic_waypoints = list(

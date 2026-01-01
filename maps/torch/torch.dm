@@ -169,6 +169,7 @@
 	#include "z2_transit.dmm"
 
 	#include "../away/empty.dmm"
+	#include "../away/venturian/venturian.dm"
 	#include "../away/cargotug/cargo_tug.dm"
 	#include "../away/mining/mining.dm"
 	#include "../away/derelict/derelict.dm"
