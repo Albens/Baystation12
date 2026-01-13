@@ -49,31 +49,3 @@
 /obj/machinery/computer/shuttle_control/explore/venture
 	name = "Venturian control console"
 	shuttle_tag = "FTEV Venturian"
-
-/obj/machinery/computer/modular/preset/helm/spacer_all_in_one
-	default_software = list(
-		/datum/computer_file/program/ship/sensors/spacer,
-		/datum/computer_file/program/ship/engine_control,
-		/datum/computer_file/program/munitions/spacer
-	)
-	uncreated_component_parts = list(
-		/obj/item/stock_parts/computer/ship_interface
-	)
-	autorun_program = /datum/computer_file/program/ship/sensors/spacer
-
-/datum/computer_file/program/munitions/spacer
-	nanomodule_path = /datum/nano_module/program/munitions/spacer
-	available_on_ntnet = FALSE
-
-/datum/nano_module/program/munitions/spacer
-	access_req = null
-
-/obj/item/stock_parts/computer/hard_drive/super/helm/spacer_all_in_one
-	name = "super hard drive (sensors, engine, munitions)"
-	desc = "A small hard drive with 512GQ of storage capacity for use in cluster storage solutions where capacity is more important than power efficiency. This one is pre-loaded with everything you need to fly a ship."
-
-/obj/item/stock_parts/computer/hard_drive/super/helm/spacer_all_in_one/install_default_programs()
-	..()
-	create_file(new/datum/computer_file/program/ship/engine_control(src))
-	create_file(new/datum/computer_file/program/ship/sensors/spacer(src))
-	create_file(new/datum/computer_file/program/munitions/spacer(src))
