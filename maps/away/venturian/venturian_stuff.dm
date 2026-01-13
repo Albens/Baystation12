@@ -136,7 +136,7 @@
 
 
 /obj/machinery/portable_atmospherics/powered/pump/venturian
-	start_pressure = 60 * ONE_ATMOSPHERE
+	start_pressure = 90 * ONE_ATMOSPHERE
 
 /obj/machinery/portable_atmospherics/powered/pump/venturian/New()
 	..()
