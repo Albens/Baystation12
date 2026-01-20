@@ -560,7 +560,7 @@
 /obj/item/storage/belt/holster/machete/loaded/New()
 	..()
 	new /obj/item/device/geiger(src)
-	new /obj/item/device/gps/marker(src)
+	new /obj/item/device/gps(src)
 	new /obj/item/device/scanner/gas(src)
 	new /obj/item/tape_roll(src)
 	new /obj/item/device/flashlight/upgraded(src)

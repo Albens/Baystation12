@@ -73,7 +73,8 @@
 		/obj/item/disk/astrodata = 1,
 		/obj/item/card/id/venture = 2,
 		/obj/item/boombox = 1,
-		/obj/item/paper/memo/venture = 1
+		/obj/item/paper/memo/venture = 1,
+		/obj/item/rig/eva/venture = 1
 	)
 
 /obj/item/storage/box/large/mealfortwo
@@ -142,3 +143,18 @@
 	..()
 
 	src.air_contents.adjust_multi(GAS_OXYGEN, 0.27 * MolesForPressure(), GAS_NITROGEN, 0.73 * MolesForPressure())
+
+/obj/item/rig/eva/venture
+
+	req_access = list(access_venture)
+	initial_modules = list(
+		/obj/item/rig_module/mounted/energy/plasmacutter,
+		/obj/item/rig_module/maneuvering_jets,
+		/obj/item/rig_module/device/rcd,
+		/obj/item/rig_module/vision/meson,
+		/obj/item/rig_module/cooling_unit,
+		/obj/item/rig_module/device/flash,
+		/obj/item/rig_module/kinetic_module,
+		/obj/item/rig_module/grenade_launcher/mfoam,
+		/obj/item/rig_module/chem_dispenser
+	)
